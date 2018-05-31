@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Cluster>
+    <Name>Main Group</Name>
+    <Elts>2</Elts>
+    <Cluster>
+        <Name>SubGroup 1</Name>
+        <Elts>2</Elts>
+        <DBL>
+            <Name>Value 1</Name>
+            <Value>0.0</Value>
+        </DBL>
+        <DBL>
+            <Name>Value 2</Name>
+            <Value>0.0</Value>
+        </DBL>
+    </Cluster>
+    <Cluster>
+        <Name>SubGroup 2</Name>
+        <Elts>2</Elts>
+        <DBL>
+            <Name>Value 1</Name>
+            <Value>0.0</Value>
+        </DBL>
+        <DBL>
+            <Name>Value 2</Name>
+            <Value>0.0</Value>
+        </DBL>
+    </Cluster>
+</Cluster>

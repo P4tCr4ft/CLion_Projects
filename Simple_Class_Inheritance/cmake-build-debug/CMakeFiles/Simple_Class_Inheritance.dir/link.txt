@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.1.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\Simple_Class_Inheritance.dir/objects.a
+C:\Qt\Tools\mingw530_32\bin\ar.exe cr CMakeFiles\Simple_Class_Inheritance.dir/objects.a @CMakeFiles\Simple_Class_Inheritance.dir\objects1.rsp
+C:\Qt\Tools\mingw530_32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Simple_Class_Inheritance.dir/objects.a -Wl,--no-whole-archive  -o Simple_Class_Inheritance.exe -Wl,--out-implib,libSimple_Class_Inheritance.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Simple_Class_Inheritance.dir\linklibs.rsp

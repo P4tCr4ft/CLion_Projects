@@ -1,0 +1,3 @@
+C:/SteveT_CLion/Thomas_Xerces_XML/RecordReader/cmake-build-debug/CMakeFiles/RecordReader.dir
+C:/SteveT_CLion/Thomas_Xerces_XML/RecordReader/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/SteveT_CLion/Thomas_Xerces_XML/RecordReader/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/SteveT_CLion/SimpleCplusplus/cmake-build-debug/CMakeFiles/SimpleCplusplus.dir
+C:/SteveT_CLion/SimpleCplusplus/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/SteveT_CLion/SimpleCplusplus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
