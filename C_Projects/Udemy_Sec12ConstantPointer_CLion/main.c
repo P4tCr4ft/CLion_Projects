@@ -36,7 +36,7 @@ int main()
 
     // If want to lock item2 down, then declare as const as well, eg,
 
-    const int item2 = 12;
+//    const int item2 = 12;
 
     return 0;
 }
