@@ -1,0 +1,3 @@
+C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_Pointers_CLion/cmake-build-debug/CMakeFiles/Udemy_Sec12_Pointers_CLion.dir
+C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_Pointers_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_Pointers_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

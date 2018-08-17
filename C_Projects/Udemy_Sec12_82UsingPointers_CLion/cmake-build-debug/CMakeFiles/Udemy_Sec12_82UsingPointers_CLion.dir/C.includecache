@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion/main.c
+stdio.h
+-
+stddef.h
+-
+
