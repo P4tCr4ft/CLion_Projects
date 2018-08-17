@@ -36,9 +36,9 @@ int main()
 // NOTE: the initialization below discards the const from the original dec of value2
 // so deref pointer can change value of value2, but cannot directly re-assign value2
 
-    long * pvalue2 = &value2;
+//    long * pvalue2 = &value2;
 
-    *pvalue2 = 3333L; // yes
+//    *pvalue2 = 3333L; // yes
 
 //    value2 = 4444L; // no
 
