@@ -11,7 +11,7 @@ int arraySum(int array[], const int n)
 //    for (ptr = array; ptr < arrayEnd; ++ptr)// ptr = array, same as ptr = &array[0], arrayEnd is last element address
                                             // ptr + 1 just goes to the next address
 
-    for (; array < arrayEnd; ++array)
+    for (; array < arrayEnd; ++array)// loop similar to pointer notation below but still works
 
 
 //        sum += *ptr;// dereference pointer (indirection operator), pointing to each address in array (so value stored at each address), as it iterates
