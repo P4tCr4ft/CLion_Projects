@@ -1,3 +1,0 @@
-C:/SteveT_CLion/Simple_Class_Inheritance/cmake-build-debug/CMakeFiles/Simple_Class_Inheritance.dir
-C:/SteveT_CLion/Simple_Class_Inheritance/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/SteveT_CLion/Simple_Class_Inheritance/cmake-build-debug/CMakeFiles/rebuild_cache.dir
