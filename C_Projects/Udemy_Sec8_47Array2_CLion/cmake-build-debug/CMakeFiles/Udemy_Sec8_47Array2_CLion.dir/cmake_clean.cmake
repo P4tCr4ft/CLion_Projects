@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "Udemy_Sec8_47Array2_CLion.pdb"
   "Udemy_Sec8_47Array2_CLion.exe"
   "Udemy_Sec8_47Array2_CLion.exe.manifest"
-  "libUdemy_Sec8_47Array2_CLion.dll.a"
+  "Udemy_Sec8_47Array2_CLion.lib"
 )
 
 # Per-language clean rules from dependency scanning.
