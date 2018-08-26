@@ -1,3 +1,0 @@
-C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec8_47Array2_CLion/cmake-build-debug/CMakeFiles/Udemy_Sec8_47Array2_CLion.dir
-C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec8_47Array2_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec8_47Array2_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
