@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 // Using char arrays as function parameters (arguments are what are passed when function called)
+//                                          (parameters are what the function variables are called in the
+//                                          (definition of the function)
 
 void copyString(char to[], char from[])
 {
