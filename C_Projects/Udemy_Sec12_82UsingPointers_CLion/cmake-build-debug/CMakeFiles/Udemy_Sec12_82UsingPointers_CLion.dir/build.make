@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion
+CMAKE_SOURCE_DIR = C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/flags.make
 
 CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.obj: CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/flags.make
 CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.obj"
-	C:\Qt\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.obj   -c C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.obj   -c C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c
 
 CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.i"
-	C:\Qt\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c > CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c > CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.i
 
 CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/main.c.s"
-	C:\Qt\Tools\mingw530_32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c -o CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\main.c -o CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\main.c.s
 
 # Object files for target Udemy_Sec12_82UsingPointers_CLion
 Udemy_Sec12_82UsingPointers_CLion_OBJECTS = \
@@ -81,7 +81,7 @@ Udemy_Sec12_82UsingPointers_CLion.exe: CMakeFiles/Udemy_Sec12_82UsingPointers_CL
 Udemy_Sec12_82UsingPointers_CLion.exe: CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/linklibs.rsp
 Udemy_Sec12_82UsingPointers_CLion.exe: CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/objects1.rsp
 Udemy_Sec12_82UsingPointers_CLion.exe: CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Udemy_Sec12_82UsingPointers_CLion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Udemy_Sec12_82UsingPointers_CLion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/clean:
 .PHONY : CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/clean
 
 CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion\cmake-build-debug\CMakeFiles\Udemy_Sec12_82UsingPointers_CLion.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Udemy_Sec12_82UsingPointers_CLion.dir/depend
 

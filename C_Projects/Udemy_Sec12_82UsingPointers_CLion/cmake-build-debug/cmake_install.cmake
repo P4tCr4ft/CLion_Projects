@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion
+# Install script for directory: C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

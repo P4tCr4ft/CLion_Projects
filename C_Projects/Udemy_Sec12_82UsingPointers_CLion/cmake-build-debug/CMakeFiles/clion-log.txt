@@ -1,18 +1,18 @@
-"C:\Program Files\JetBrains\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\cewd\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion
--- The C compiler identification is GNU 5.3.0
--- The CXX compiler identification is GNU 5.3.0
--- Check for working C compiler: C:/Qt/Tools/mingw530_32/bin/gcc.exe
--- Check for working C compiler: C:/Qt/Tools/mingw530_32/bin/gcc.exe -- works
+"C:\Program Files\JetBrains\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Steve\CLion_Projects\C_Projects\Udemy_Sec12_82UsingPointers_CLion
+-- The C compiler identification is GNU 4.9.2
+-- The CXX compiler identification is GNU 4.9.2
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Check for working CXX compiler: C:/Qt/Tools/mingw530_32/bin/g++.exe
--- Check for working CXX compiler: C:/Qt/Tools/mingw530_32/bin/g++.exe -- works
+-- Check for working CXX compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/g++.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/g++.exe -- works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/cewd/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion/cmake-build-debug
+-- Build files have been written to: C:/Users/Steve/CLion_Projects/C_Projects/Udemy_Sec12_82UsingPointers_CLion/cmake-build-debug
