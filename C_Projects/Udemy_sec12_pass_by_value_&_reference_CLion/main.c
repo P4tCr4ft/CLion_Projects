@@ -34,6 +34,21 @@ void swap2(int * x, int * y)
 // a bit more syntax - see swap2 function above, and call to it below, where arguments are address-of variables.
 
 
+// Can also have functions which return a pointer. Although Udemy example weirdly does not include
+// the return statement, weird. will comment out for now. Mentions how provides a way to not just return
+// a single value, but a whole set of values, using some type of structure ....
+// will leave commented out for now
+
+//int * someFunc()
+//{
+//    printf("This returns a pointer");
+//
+//    return ? (some integer pointer)
+//
+//
+//}
+
+
 int main() {
 
     int a = 100;
