@@ -1,6 +1,4 @@
 C_Projects/*/.idea/workspace.xml
+C++_Projects/*/.idea/workspace.xml
 C_Projects/*/cmake-build-debug
-Simple_Class_Inheritance/cmake-build-debug
-SimpleCplusplus/cmake-build-debug
-Simple_Class_Inheritance/.idea/workspace.xml
-SimpleCplusplus/.idea/workspace.xml
+C++_Projects/*/cmake-build-debug
