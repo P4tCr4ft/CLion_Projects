@@ -43,12 +43,12 @@ void Point2D::setX(int x)
     this->x = x;
     cout << "Im from Point2D" << endl;
 }
-Point2D Point2D::operator+(Point2D o)
-{
-    Point2D tmp;
-
-    tmp.setX(this->getX() + o.getX());
-    tmp.setY(this->getY() + o.getY());
-
-    return tmp;
-}
+//Point2D Point2D::operator+(Point2D o)
+//{
+//    Point2D tmp;
+//
+//    tmp.setX(this->getX() + o.getX());
+//    tmp.setY(this->getY() + o.getY());
+//
+//    return tmp;
+//}

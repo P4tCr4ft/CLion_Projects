@@ -11,7 +11,7 @@ T add(T var1, T2 var2)
 {
     return var1 + var2;
 }
-/*
+///*
 template<>
 Point2D add(Point2D var1, Point2D var2)
 {
@@ -22,7 +22,7 @@ Point2D add(Point2D var1, Point2D var2)
 
     return tmp;
 }
-*/
+///*/
 int main()
 {
     operationOnPoints();
