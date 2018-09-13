@@ -17,6 +17,18 @@ void swap2(int * x, int * y)
     *y = temp;
 }
 
+// Using pointer to const as parameter, so this means in function swap3 cannot change what
+// pointer is pointing at. So below, line 27 will not compile, as cannot use pointer to
+// change value pointed at, cannot change value by de-referencing pointer
+
+void swap3(const int * x, const int * y)
+{
+    int temp;
+    temp = *x;
+//    *x = *y;
+
+}
+
 // Unlike C++ cannot use address-of operator as a parameter type, in function definition)
 //void testSwap(int & j, int & k)
 //{
@@ -68,6 +80,8 @@ int main() {
 
     printf("After swap2, a is : %d\n", a);
     printf("After swap2, b is : %d\n", b);
+
+    swap3(&a, &b);
 
     return 0;
 }
