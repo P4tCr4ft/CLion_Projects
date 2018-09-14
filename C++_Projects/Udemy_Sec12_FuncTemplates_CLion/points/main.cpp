@@ -12,7 +12,7 @@ T add(T var1, T2 var2)
     return var1 + var2;
 }
 ///*
-template<>
+//template<>
 Point2D add(Point2D var1, Point2D var2)
 {
     Point2D tmp;
@@ -27,10 +27,10 @@ int main()
 {
     operationOnPoints();
 
-    //cout << add<double, double>(2, 5.6) << endl;
+    cout << add<double, double>(2, 5.6) << endl;
 
 
-   // cout << static_cast<int>(6.5) << endl;
+    cout << static_cast<int>(6.5) << endl;
 
     return 0;
 }
