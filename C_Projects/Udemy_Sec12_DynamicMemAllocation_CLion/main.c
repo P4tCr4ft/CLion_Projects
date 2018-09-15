@@ -55,11 +55,15 @@ int main() {
                                                                                         // ie size required to store an address
                                                                                         // it's not talking about the data
 
-    strcpy(str, "steve");
+    strcpy(str, "stephen john triplett");
 
     printf("str is %s, sizeof malloc char pointer str is %d and address is %p\n", str, sizeof(str[0]), str);
     printf("str is %s, sizeof malloc char pointer str is %d and address is %p\n", str, strlen(str), str);
     printf("dereference str pointer is %c\n", *str);
+
+//    str = (char *)realloc(str, 25* sizeof(char));
+
+
 
 //    for(int i=0; i<sizeof(str)/sizeof(str[0]); ++i)
 //        printf("string element is %s", str[i]);
@@ -67,7 +71,7 @@ int main() {
     for(int i=0; i<strlen(str); ++i)
     {
         printf("string element is %c\n", str[i]);
-        printf("string element is %p\n", (void*)str+i);
+        printf("string element is %p\n", (void *)str+i);
         printf("string element is %c\n", *(str + i));
     }
 
