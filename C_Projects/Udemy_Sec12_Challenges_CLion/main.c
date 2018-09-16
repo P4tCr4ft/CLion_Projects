@@ -27,7 +27,8 @@ int main() {
     printf("New value of pNum is: %f\n", *pNum);
 
     char someString[] = "A nice string";
-    pointers_calc_string_length(someString);
+    int length = pointers_calc_string_length(someString);
+    printf("The length of someString is: %d\n", length);
 
     return 0;
 }
