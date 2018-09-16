@@ -15,9 +15,10 @@ int main()
     char * p = multiple;
 
 
-    printf("multiple is '%s'\n", multiple);
-    printf("multiple3 is '%s'\n", multiple3);
-    printf("multiple4 is '%s'\n", multiple4);
+    printf("multiple is %s\n", multiple);
+    printf("multiple2 is %s\n", multiple2);
+    printf("multiple3 is %c\n", multiple3[0]);
+    printf("multiple4 is %s\n", multiple4);
     printf("size of multiple is %i bytes\n", sizeof(multiple));
     printf("size of multiple2 is %i bytes\n", sizeof(multiple2));
     printf("size of intmulti is %i bytes\n", sizeof(intmulti));

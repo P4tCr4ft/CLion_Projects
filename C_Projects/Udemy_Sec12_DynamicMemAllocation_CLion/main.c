@@ -43,37 +43,78 @@
 
 int main() {
 
-    char * str;// declared but not initialised, has no mem address associated with it.
+    char * str = NULL;// declared but not initialised, has no mem address associated with it.
                 // remember is best idea to set to NULL, so when check for NULL, if it's
                 // not NULL it's because you have set it, not because you have just not
                 // initialised it, like above, so not being NULL, if you go ahead and
                 // use it, it will hose your program.
 
+    // initial memory allocation
     str = (char *)malloc(15*sizeof(char));// malloc returns a void pointer, so needs casting to char pointer
 
     printf("sizeof malloc char pointer is %d and address is %p\n", sizeof(str), str);// This is just the size of pointer
                                                                                         // ie size required to store an address
                                                                                         // it's not talking about the data
 
-    strcpy(str, "stephen john triplett");
+    strcpy(str, "steveT");
+
+
+    // apparently writing too many bytes to allocated memory causes memory leak ...
+    // Similarly if you overwrite the memory before you release it
+    // I don't fully understand this behavior below, copying too large a string to str...
+    // *** But, IMPORTANT thing to note, this below crashes program, that is,
+    // *** it does not exit with 0, which is expected and good, it exits with something bad
+
+//    strcpy(str, "stephen john triplett");
+
+
+    printf("sizeof malloc char pointer after strcpy is %d and address is %p\n", sizeof(str), str);
+
+
+
+
+    // this is what's in Udemy video, they reallocate memory before concatenating a longer
+    // string on the end;
+
+    // Reallocating memory
+    str = (char *)realloc(str, 25*sizeof(char));
+
+    strcat(str, "-Steve Triplett");
+
+
+
+
+
+
+    // a regular char array, is implemented on the stack
+    char str2[10];
+
+    // Similarly, this below crashes program in some way, or does not exit with expected 0, something else bad
+//    strcpy(str2, "stephen john triplett");
+
+    strcpy(str2, "steveT");
+
 
     printf("str is %s, sizeof malloc char pointer str is %d and address is %p\n", str, sizeof(str[0]), str);
     printf("str is %s, sizeof malloc char pointer str is %d and address is %p\n", str, strlen(str), str);
     printf("dereference str pointer is %c\n", *str);
 
-//    str = (char *)realloc(str, 25* sizeof(char));
-
-
-
-//    for(int i=0; i<sizeof(str)/sizeof(str[0]); ++i)
-//        printf("string element is %s", str[i]);
+    printf("str2 is %s, sizeof char pointer str2 is %d and address is %p\n", str2, sizeof(str2[0]), str2);
+    printf("str2 is %s, sizeof char pointer str2 is %d and address is %p\n", str2, strlen(str2), str2);
+    printf("dereference str2 pointer is %c\n", *str2);
 
     for(int i=0; i<strlen(str); ++i)
     {
-        printf("string element is %c\n", str[i]);
-        printf("string element is %p\n", (void *)str+i);
-        printf("string element is %c\n", *(str + i));
+//        printf("string element is %c\n", str[i]);
+//        printf("string element is %p\n", (void *)str+i);
+//        printf("string element is %c\n", *(str + i));
     }
+
+
+    // with Dynamic Memory Allocation the responsibility should always be on the creator of the mem to
+    // free it, don't allocate mem and then rely on some other function to free it.
+
+    free(str);
 
 
     return 0;
