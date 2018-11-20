@@ -26,6 +26,11 @@ int main() {
     pointers_Pass_by_Ref_square(pNum);
     printf("New value of pNum is: %f\n", *pNum);
 
+
+    // In C the best practice way to create a string is to declare a char array with a string literal,
+    // and not specifying a size. This way the compiler automatically allocates the correct size and
+    // compiler also automatically puts the null terminator character \0 on the end in the array.
+    // this (null char) is important for looping thru char etc, using while loop
     char someString[] = "A nice string";
     int length = pointers_calc_string_length(someString);
     printf("The length of someString is: %d\n", length);
@@ -53,24 +58,22 @@ void pointers_Pass_by_Ref_square(double * const x)// const pointer so can't chan
 
 int pointers_calc_string_length(const char * pChar)
 {
-//    int num = 0;
 
-//    char * tempPtr = pChar;
+    const char * startPtr = pChar;
 
     int length = 0;
-    long start = (long)(pChar);
-//    long end = 0L;
+
+//    long start = (long)(pChar);
 
     while(*pChar)
     {
         printf("deref pchar is: %c\n", *pChar);
         ++pChar;
-//        end = end + (long)(pChar);
-
-//        ++num;
     }
 
-    length = (int)((long)(pChar) - start);
+//    length = (int)((long)(pChar) - start);
+    length = (int)(pChar - startPtr);
+
     return length;
 
 
